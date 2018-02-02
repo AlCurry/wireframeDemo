@@ -1,0 +1,91 @@
+/* 
+   CSS for wireframe demo - first assignment
+   Styles a basic wireframe diagram for the calling index.html file
+
+   Al Curry  February 1, 2018
+
+   GWU full stack development program 
+
+   Curiosity :  the 1px borders on several elements were originally other colors to outline better
+                removing them caused some elements to change size
+                hack to fix was changing to match the box's color 
+
+*/
+* {
+    box-sizing: border-box;
+  }
+body {
+    background-color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    max-width: 960px; 
+    color: #777777;
+    margin: 10px auto 0 auto;
+      
+}
+header {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #EBEBEB;
+    text-align: center;
+    border: 1px solid #EBEBEB;
+}
+nav {
+    margin-left: 10%; 
+    margin-right: 10%; 
+    background-color: #EBEBEB;
+    color: #777777;
+    border: 1px solid #EBEBEB;
+}
+footer {
+    margin: 30px 10% 0 10%;
+    background-color: #EBEBEB;
+    text-align: center;
+    height: 60px;
+    /* border: 1px solid green; */
+    float: left;
+    width: 770px;
+}
+p {
+    text-align: center;
+    color: #777777;
+}
+
+#sect {
+    margin-left: 10%;
+    width: 450px;
+    height: 250px;
+    padding: 10px;
+    padding-top: 30px;
+    background-color: #EBEBEB;
+    text-align: center;
+    float: left;
+}
+
+#asde {
+    margin-left: 19px; 
+    width: 300px; 
+    height: 250px;
+    padding: 30px; 
+    color: #777777;
+    background-color: #EBEBEB;
+    text-align: center;
+    float: left;
+}
+
+#art {
+    border: 1px solid #EBEBEB;
+    background: #777777;
+    color: #EBEBEB;
+    padding-top: 25px;
+}   
+
+#hdr, #para {
+    background-color: #EBEBEB;
+    padding: 10px;
+    margin: 10px 20px 0px 20px;
+}
+
+#para {
+    margin: 10px 20px 15px 20px;
+}
